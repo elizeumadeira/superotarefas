@@ -33,7 +33,7 @@ php artisan route:list
 
 | Method| URI | Name| Action | Middleware |
 | --- | --- | --- | --- | --- |
-| GET|HEAD | tarefas | tarefas.index | App\Http\Controllers\TarefasController@index | web|
+| GET/HEAD | tarefas | tarefas.index | App\Http\Controllers\TarefasController@index | web|
 | POST | tarefas | tarefas.store | App\Http\Controllers\TarefasController@store | web|
 | GET/HEAD | tarefas/create| tarefas.create| App\Http\Controllers\TarefasController@create| web|
 | GET/HEAD | tarefas/{tarefa}| tarefas.show| App\Http\Controllers\TarefasController@show| web|
