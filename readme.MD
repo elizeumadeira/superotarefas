@@ -30,9 +30,9 @@ php artisan server
 ```sh
 php artisan route:list
 ```
-+--------+-----------+-----------------------+-----------------+------------------------------------------------+------------+
+
 | Domain | Method    | URI                   | Name            | Action                                         | Middleware |
-+--------+-----------+-----------------------+-----------------+------------------------------------------------+------------+
+------------------------------------------------------------------------------------------------------------------------------
 |        | GET|HEAD  | tarefas               | tarefas.index   | App\Http\Controllers\TarefasController@index   | web        |
 |        | POST      | tarefas               | tarefas.store   | App\Http\Controllers\TarefasController@store   | web        |
 |        | GET|HEAD  | tarefas/create        | tarefas.create  | App\Http\Controllers\TarefasController@create  | web        |
@@ -40,4 +40,3 @@ php artisan route:list
 |        | PUT|PATCH | tarefas/{tarefa}      | tarefas.update  | App\Http\Controllers\TarefasController@update  | web        |
 |        | DELETE    | tarefas/{tarefa}      | tarefas.destroy | App\Http\Controllers\TarefasController@destroy | web        |
 |        | GET|HEAD  | tarefas/{tarefa}/edit | tarefas.edit    | App\Http\Controllers\TarefasController@edit    | web        |
-+--------+-----------+-----------------------+-----------------+------------------------------------------------+------------+
