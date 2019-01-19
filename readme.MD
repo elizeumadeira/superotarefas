@@ -4,7 +4,7 @@ Instalação das dependencias
 composer install
 ```
 
-## CArquivo de configuração
+## Criar Arquivo de configuração
 ```sh
 cp .env.example .env
 ```
@@ -16,7 +16,7 @@ DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
 
-## Cria a chave
+## Criar a chave
 ```sh
 php artisan key:generate
 ```
